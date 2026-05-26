@@ -40,3 +40,23 @@ Summary of total matches, teams, and seasons. Bar chart of matches per season. A
 
 Key Findings : 
 A clear dominant team emerges across IPL seasons based on total win count. Home advantage shows a measurable difference in win rates. A small group of players repeatedly win Player of the Match awards. Certain venues consistently host a higher number of matches.
+
+  3. Northwind Sales Analysis
+     
+A Python data analysis project built on the classic Northwind business database — a simulated retail company dataset containing orders, products, customers, employees, and categories.
+
+Objective : 
+End-to-end sales analysis across products, categories, customers, and countries to identify top revenue-generating segments, track monthly sales trends, and evaluate employee-level order performance.
+
+Dataset Used : 
+
+Northwind.xlsx — Sheets: Orders, Order Details, Products, Categories, Customers, Employees
+
+Tech Stack : 
+Python 3 — Pandas, Matplotlib, OpenPyXL
+
+Analysis Performed : 
+Total sales per product and category after discount. Top 5 customers by total revenue. Total orders grouped by country. Monthly sales trend using DateTime parsing and period grouping. Average order value per employee. Category-wise and country-wise revenue bar charts.
+
+Key Findings : 
+Revenue is concentrated in a few top product categories with clear leaders. A small group of customers contributes disproportionately to total revenue. Monthly trends reveal seasonal patterns and business growth periods. Country-wise analysis highlights the key geographic markets driving orders.
