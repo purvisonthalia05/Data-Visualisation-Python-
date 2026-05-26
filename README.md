@@ -3,12 +3,16 @@
 1. Car & Cereal Dataset Analysis
 
 A Python data analysis project exploring two real-world datasets — the mtcars automobile dataset and a cereal nutrition dataset — using Pandas, Matplotlib, and Seaborn.
+
 Objective
 
-Perform statistical analysis on car performance metrics (MPG, horsepower, weight, cylinders)
-Analyze cereal nutrition data (calories, sugar, fiber, rating)
-Visualize relationships between variables using scatter plots, box plots, and bar charts
-Draw data-driven conclusions about fuel efficiency and healthy cereal choices
+a) Perform statistical analysis on car performance metrics (MPG, horsepower, weight, cylinders)
+
+b) Analyze cereal nutrition data (calories, sugar, fiber, rating)
+
+c) Visualize relationships between variables using scatter plots, box plots, and bar charts
+
+d) Draw data-driven conclusions about fuel efficiency and healthy cereal choices
 
 Datasets Used
 
@@ -53,17 +57,27 @@ Python 3 — Pandas, Matplotlib, Seaborn
 
 Analysis Performed
 
-Total matches, teams, and seasons summary
-Matches per season — bar chart
-Top 5 teams with most wins — annotated horizontal bar chart
-Top 10 players by Player of the Match awards
-Top 10 venues by match count — pie chart
-Home vs Away wins comparison
-Season-wise wins trend for the most successful team — line chart
+a) Total matches, teams, and seasons summary
+
+b) Matches per season — bar chart
+
+c) Top 5 teams with most wins — annotated horizontal bar chart
+
+d) Top 10 players by Player of the Match awards
+
+e) Top 10 venues by match count — pie chart
+
+f) Home vs Away wins comparison
+
+g) Season-wise wins trend for the most successful team — line chart
 
 Key Findings
 
-A clear dominant team emerges across IPL seasons based on total win count
-Home advantage shows a measurable difference in win rates
-A small group of players repeatedly win Player of the Match awards
-Certain venues consistently host more matches
+a) A clear dominant team emerges across IPL seasons based on total win count
+
+b) Home advantage shows a measurable difference in win rates
+
+c) A small group of players repeatedly win Player of the Match awards
+
+d) Certain venues consistently host more matches
+
