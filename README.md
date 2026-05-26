@@ -21,3 +21,22 @@
   
   Key Findings : 
   As horsepower increases, MPG decreases — Ferrari Dino stands out as the highest efficiency, high-HP car. Manual transmission cars generally achieve better MPG than automatic. All-Bran with Extra Fiber is the healthiest cereal based on lowest calorie and fat content. Lower-calorie cereals tend to receive higher consumer ratings.
+
+  2. IPL Match Analysis
+     
+A Python data analysis project exploring Indian Premier League match data to uncover performance trends, team dominance, player achievements, and venue statistics.
+
+Objective : 
+Analyze IPL match records across multiple seasons to identify top-performing teams, players, and venues. Visualize win patterns, home vs away performance, and season-by-season trends for the most successful team.
+
+Dataset Used : 
+ipl_full_matches.csv — Complete IPL match records including teams, venues, winners, player of the match, and season data
+
+Tech Stack : 
+Python 3 — Pandas, Matplotlib, Seaborn
+
+Analysis Performed : 
+Summary of total matches, teams, and seasons. Bar chart of matches per season. Annotated horizontal bar chart of top 5 teams with most wins. Top 10 players by Player of the Match awards. Pie chart of top 10 venues by match count. Home vs Away wins comparison bar chart. Season-wise wins trend line chart for the most successful team.
+
+Key Findings : 
+A clear dominant team emerges across IPL seasons based on total win count. Home advantage shows a measurable difference in win rates. A small group of players repeatedly win Player of the Match awards. Certain venues consistently host a higher number of matches.
