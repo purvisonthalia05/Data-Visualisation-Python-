@@ -10,7 +10,9 @@ Visualize relationships between variables using scatter plots, box plots, and ba
 Draw data-driven conclusions about fuel efficiency and healthy cereal choices
 
 Datasets Used
+
 DatasetDescriptionmtcars.csv32 car models with attributes like MPG, horsepower, weight, cylinders, and transmission typecereal.csv77 breakfast cereals with nutritional values including calories, sugar, fiber, fat, and ratings
+
 Tech Stack
 Python 3 — Pandas, NumPy, Matplotlib, Seaborn
 Analysis Performed
