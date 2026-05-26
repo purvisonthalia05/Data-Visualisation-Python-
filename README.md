@@ -1,62 +1,61 @@
-# Data-Visualisation-Python-
+# Car Dataset Analysis
 
-1. Car & Cereal Dataset Analysis
+A Python-based data analysis project that explores automotive datasets using statistical analysis and data visualization techniques. The project performs data preprocessing, descriptive statistics, and graphical analysis to identify patterns in vehicle performance and characteristics.
 
-  A Python data analysis project exploring two real-world datasets — the mtcars automobile dataset and a cereal nutrition dataset — using Pandas, Matplotlib, and Seaborn.
-  
-  Objective : 
-  Statistical analysis on car performance metrics (MPG, horsepower, weight, cylinders) and cereal nutrition data (calories, sugar, fiber, rating), with visualizations to draw data-driven conclusions about fuel efficiency and healthy cereal choices.
-  
-  Datasets Used : 
-  
-  mtcars.csv — 32 car models with attributes like MPG, horsepower, weight, cylinders, and transmission type
-  
-  cereal.csv — 77 breakfast cereals with nutritional values including calories, sugar, fiber, fat, and consumer ratings
-  
-  Tech Stack : 
-  Python 3 — Pandas, NumPy, Matplotlib, Seaborn
-  
-  Analysis Performed : 
-  Descriptive statistics for MPG, horsepower, and weight. Line plot of Cylinders vs Fuel Efficiency and scatter plot of Horsepower vs MPG. Box plot comparing MPG across Automatic vs Manual transmission. Seaborn scatter with model-wise hue to identify high-efficiency, high-HP cars. Bar plot of sugar content per cereal brand and scatter of Calories vs Fat with brand hue.
-  
-  Key Findings : 
-  As horsepower increases, MPG decreases — Ferrari Dino stands out as the highest efficiency, high-HP car. Manual transmission cars generally achieve better MPG than automatic. All-Bran with Extra Fiber is the healthiest cereal based on lowest calorie and fat content. Lower-calorie cereals tend to receive higher consumer ratings.
+### Tech Stack
+Python • Pandas • NumPy • Matplotlib • Seaborn • Jupyter Notebook
 
-  2. IPL Match Analysis
-     
-A Python data analysis project exploring Indian Premier League match data to uncover performance trends, team dominance, player achievements, and venue statistics.
+### Highlights
+- Data cleaning and preprocessing
+- Statistical analysis of vehicle attributes
+- Scatter plot and box plot visualizations
+- Summary statistics and trend analysis
+- Exploratory Data Analysis (EDA)
 
-Objective : 
-Analyze IPL match records across multiple seasons to identify top-performing teams, players, and venues. Visualize win patterns, home vs away performance, and season-by-season trends for the most successful team.
+### Files
+- `Car_dataset.ipynb` – Complete analysis notebook
 
-Dataset Used : 
-ipl_full_matches.csv — Complete IPL match records including teams, venues, winners, player of the match, and season data
+### Dataset
+Automobile datasets including vehicle performance metrics such as MPG and other car attributes.\
 
-Tech Stack : 
-Python 3 — Pandas, Matplotlib, Seaborn
+# IPL Match Data Analysis
 
-Analysis Performed : 
-Summary of total matches, teams, and seasons. Bar chart of matches per season. Annotated horizontal bar chart of top 5 teams with most wins. Top 10 players by Player of the Match awards. Pie chart of top 10 venues by match count. Home vs Away wins comparison bar chart. Season-wise wins trend line chart for the most successful team.
+A data analytics project that explores Indian Premier League (IPL) match data to uncover trends in team performance, player achievements, venues, and seasonal statistics through visualizations and exploratory analysis.
 
-Key Findings : 
-A clear dominant team emerges across IPL seasons based on total win count. Home advantage shows a measurable difference in win rates. A small group of players repeatedly win Player of the Match awards. Certain venues consistently host a higher number of matches.
+### Tech Stack
+Python • Pandas • Matplotlib • Seaborn • Jupyter Notebook
 
-  3. Northwind Sales Analysis
-     
-A Python data analysis project built on the classic Northwind business database — a simulated retail company dataset containing orders, products, customers, employees, and categories.
+### Highlights
+- Match and team performance analysis
+- Season-wise match trends
+- Top winning teams visualization
+- Player of the Match analysis
+- Venue-wise match distribution
+- Home vs Away win comparison
 
-Objective : 
-End-to-end sales analysis across products, categories, customers, and countries to identify top revenue-generating segments, track monthly sales trends, and evaluate employee-level order performance.
+### Files
+- `IPL_dataset.ipynb` – Complete analysis notebook
 
-Dataset Used : 
+### Dataset
+IPL Full Matches Dataset containing match details, teams, venues, winners, and player awards.
 
-Northwind.xlsx — Sheets: Orders, Order Details, Products, Categories, Customers, Employees
+# Northwind Sales Data Analysis
 
-Tech Stack : 
-Python 3 — Pandas, Matplotlib, OpenPyXL
+A business intelligence and sales analytics project using the Northwind database. The analysis focuses on product sales, customer revenue, country-wise performance, employee contributions, and monthly sales trends.
 
-Analysis Performed : 
-Total sales per product and category after discount. Top 5 customers by total revenue. Total orders grouped by country. Monthly sales trend using DateTime parsing and period grouping. Average order value per employee. Category-wise and country-wise revenue bar charts.
+### Tech Stack
+Python • Pandas • Matplotlib • OpenPyXL • Jupyter Notebook
 
-Key Findings : 
-Revenue is concentrated in a few top product categories with clear leaders. A small group of customers contributes disproportionately to total revenue. Monthly trends reveal seasonal patterns and business growth periods. Country-wise analysis highlights the key geographic markets driving orders.
+### Highlights
+- Product-wise sales analysis
+- Category revenue evaluation
+- Top customer identification
+- Country-wise order and revenue analysis
+- Monthly sales trend visualization
+- Employee performance analysis
+
+### Files
+- `Northwind_Dataset.ipynb` – Complete analysis notebook
+
+### Dataset
+Northwind Sample Database containing customers, orders, products, categories, employees, and sales records.
